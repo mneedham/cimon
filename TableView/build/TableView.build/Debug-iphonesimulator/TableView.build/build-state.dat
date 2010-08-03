@@ -1,0 +1,295 @@
+TTableView
+v7
+r0
+t302384266.975296
+cCheck dependencies
+cProcessInfoPlistFile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/Info.plist TableView-Info.plist
+cCompileXIB /Users/mneedham/SandBox/iPad/TableView/MainWindow.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/TableView/RootViewController.xib
+cProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch.gch TableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/TableView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableViewAppDelegate.o /Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/RootViewController.o /Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView normal i386
+cGenerateDSYMFile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app.dSYM /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView
+cTouch /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C541C850000000000000132
+t1280580741
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/CoolAndThoughtfulController.h
+c000000004C55D38C00000000000000FF
+t1280693132
+s255
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/CoolAndThoughtfulController.m
+c000000004C55D3F10000000000000546
+t1280693233
+s1350
+i"CoolAndThoughtfulController.h"
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/CoolAndThoughtfulController.xib
+c000000004C55D4670000000000003B1B
+t1280693351
+s15131
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.h
+c000000004C55BED900000000000000F0
+t1280687833
+s240
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m
+c000000004C57C5D600000000000010A1
+t1280820694
+s4257
+i"RootViewController.h"
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.h
+c000000004C55BED900000000000001DC
+t1280687833
+s476
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m
+c000000004C55BED90000000000000AA8
+t1280687833
+s2728
+i"TableViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mneedham/SandBox/iPad/TableView/MainWindow.xib
+c000000004C55BED90000000000005FFC
+t1280687833
+s24572
+
+N/Users/mneedham/SandBox/iPad/TableView/RootViewController.xib
+c000000004C55BED90000000000004454
+t1280687833
+s17492
+
+N/Users/mneedham/SandBox/iPad/TableView/TableView_Prefix.pch
+c000000004C55BED90000000000000144
+t1280687833
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app
+t1280691466
+s238
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app.dSYM
+t1280691466
+s102
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/CoolAndThoughtfulController.nib
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/Info.plist
+t1280687842
+s599
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/MainWindow.nib
+t1280687843
+s1511
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/PkgInfo
+t1280687842
+s8
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/RootViewController.nib
+t1280687843
+s979
+
+N/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView
+t1280691466
+s18644
+
+N/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/CoolAndThoughtfulController.o
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/RootViewController.o
+t1280691466
+s40852
+
+N/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableView.LinkFileList
+c000000004C55BEE20000000000000198
+t1280687842
+s408
+
+N/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableViewAppDelegate.o
+t1280687845
+s49500
+
+N/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/main.o
+t1280687845
+s6304
+
+N/Users/mneedham/SandBox/iPad/TableView/main.m
+c000000004C55BED9000000000000016E
+t1280687833
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch.gch
+t1280687845
+s15232016
+
+NTableView-Info.plist
+c000000004C55BED9000000000000038D
+t1280687833
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302384266#302384266#0(0"0(0#1#0"8620435232#0"0#
+
+CCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/CoolAndThoughtfulController.o /Users/mneedham/SandBox/iPad/TableView/Classes/CoolAndThoughtfulController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/RootViewController.o /Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302384266.708131
+e302384266.910596
+r1
+xCompileC
+xbuild/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/RootViewController.o
+x/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m:81: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+lSLF07#2@75"Compile /Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m302384266#302384266#0(415"/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m:81: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)302384266#139#276#0(6@67"/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m302384260#81#0#81#0#33"'*' is deprecated (declared at *)0(0#0#67"/Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m8610011904#1977"    cd /Users/mneedham/SandBox/iPad/TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-generated-files.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-project-headers.hmap -F/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch -c /Users/mneedham/SandBox/iPad/TableView/Classes/RootViewController.m -o /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableViewAppDelegate.o /Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302380645.752312
+e302380645.979568
+r1
+xCompileC
+xbuild/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableViewAppDelegate.o
+x/Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m302380645#302380645#0(0"0(0#0#69"/Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m8615587680#1981"    cd /Users/mneedham/SandBox/iPad/TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-generated-files.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-project-headers.hmap -F/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch -c /Users/mneedham/SandBox/iPad/TableView/Classes/TableViewAppDelegate.m -o /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableViewAppDelegate.o0#
+
+CCompileC build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/TableView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302380645.736700
+e302380645.869291
+r1
+xCompileC
+xbuild/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/main.o
+x/Users/mneedham/SandBox/iPad/TableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/mneedham/SandBox/iPad/TableView/main.m302380645#302380645#0(0"0(0#0#45"/Users/mneedham/SandBox/iPad/TableView/main.m8621650272#1941"    cd /Users/mneedham/SandBox/iPad/TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-generated-files.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-project-headers.hmap -F/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch -c /Users/mneedham/SandBox/iPad/TableView/main.m -o /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/TableView/Classes/CoolAndThoughtfulController.xib
+r0
+
+CCompileXIB /Users/mneedham/SandBox/iPad/TableView/MainWindow.xib
+s302380642.213401
+e302380643.618743
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/TableView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302380642#302380643#0(0"0(0#0#53"/Users/mneedham/SandBox/iPad/TableView/MainWindow.xib8590404672#572"    cd /Users/mneedham/SandBox/iPad/TableView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/MainWindow.nib /Users/mneedham/SandBox/iPad/TableView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/TableView/RootViewController.xib
+s302380642.216516
+e302380643.482731
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/TableView/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib302380642#302380643#0(0"0(0#0#61"/Users/mneedham/SandBox/iPad/TableView/RootViewController.xib8613918688#588"    cd /Users/mneedham/SandBox/iPad/TableView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/RootViewController.nib /Users/mneedham/SandBox/iPad/TableView/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app.dSYM /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView
+s302384266.945579
+e302384266.971973
+r1
+xGenerateDSYMFile
+x/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app.dSYM
+x/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TableView.app.dSYM build/Debug-iphonesimulator/TableView.app/TableView302384266#302384266#0(0"0(0#0#90"/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView8625855680#389"    cd /Users/mneedham/SandBox/iPad/TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView -o /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app.dSYM0#
+
+CLd /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView normal i386
+s302384266.910692
+e302384266.945484
+r1
+xLd
+x/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView
+xnormal
+xi386
+lSLF07#2@95"Link /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView302384266#302384266#0(0"0(0#0#0"8625559328#910"    cd /Users/mneedham/SandBox/iPad/TableView    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -F/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -filelist /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/Objects-normal/i386/TableView.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/TableView0#
+
+CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/Info.plist TableView-Info.plist
+s302380642.203041
+e302380642.213245
+r1
+xProcessInfoPlistFile
+x/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/Info.plist
+xTableView-Info.plist
+lSLF07#2@28"Process TableView-Info.plist302380642#302380642#0(0"0(0#0#59"/Users/mneedham/SandBox/iPad/TableView/TableView-Info.plist8600035360#485"    cd /Users/mneedham/SandBox/iPad/TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TableView-Info.plist -genpkginfo /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app/Info.plist0#
+
+CProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch.gch TableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302380643.618940
+e302380645.736412
+r1
+xProcessPCH
+x/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch.gch
+xTableView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile TableView_Prefix.pch302380643#302380645#0(0"0(0#0#59"/Users/mneedham/SandBox/iPad/TableView/TableView_Prefix.pch8616024736#1831"    cd /Users/mneedham/SandBox/iPad/TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-generated-files.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/TableView-project-headers.hmap -F/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/TableView/build/TableView.build/Debug-iphonesimulator/TableView.build/DerivedSources -c /Users/mneedham/SandBox/iPad/TableView/TableView_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/TableView_Prefix-hdsogjvjugojkoaxuwbvxahgtswf/TableView_Prefix.pch.gch0#
+
+CTouch /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app
+s302384266.972064
+e302384266.975250
+r1
+xTouch
+x/Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app
+lSLF07#2@86"Touch /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app302384266#302384266#0(0"0(0#0#0"8625498752#280"    cd /Users/mneedham/SandBox/iPad/TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mneedham/SandBox/iPad/TableView/build/Debug-iphonesimulator/TableView.app0#
+

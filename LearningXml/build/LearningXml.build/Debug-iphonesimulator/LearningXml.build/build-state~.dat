@@ -1,0 +1,331 @@
+TLearningXml
+v7
+r0
+t302513216.544830
+cCheck dependencies
+cProcessInfoPlistFile /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/Info.plist LearningXml-Info.plist
+cCompileXIB /Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib
+cProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch.gch LearningXml_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/LearningXml/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXmlAppDelegate.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/RootViewController.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/Book.o /Users/mneedham/SandBox/iPad/LearningXml/Book.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/XmlParser.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C541C850000000000000132
+t1280580741
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Book.h
+c000000004C57BFD6000000000000023C
+t1280819158
+s572
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Book.m
+c000000004C57C00D0000000000000148
+t1280819213
+s328
+i"Book.h"
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h
+c000000004C57C062000000000000022F
+t1280819298
+s559
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m
+c000000004C57C3E30000000000000C17
+t1280820195
+s3095
+i"LearningXmlAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.h
+c000000004C57BFAB00000000000000F2
+t1280819115
+s242
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m
+c000000004C57BFAB00000000000010CA
+t1280819115
+s4298
+i"RootViewController.h"
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.h
+c000000004C57C3DF0000000000000177
+t1280820191
+s375
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m
+c000000004C57C4360000000000000911
+t1280820278
+s2321
+i"XmlParser.h"
+
+N/Users/mneedham/SandBox/iPad/LearningXml/LearningXml_Prefix.pch
+c000000004C57BFAB0000000000000148
+t1280819115
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib
+c000000004C57BFAB0000000000006004
+t1280819115
+s24580
+
+N/Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib
+c000000004C57BFAB0000000000004456
+t1280819115
+s17494
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app.dSYM
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/Info.plist
+t1280820413
+s607
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/LearningXml
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/MainWindow.nib
+t1280820414
+s1513
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/PkgInfo
+t1280820413
+s8
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/RootViewController.nib
+t1280820414
+s979
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/Book.o
+t1280820416
+s10664
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXml.LinkFileList
+c000000004C57C4BD00000000000002B9
+t1280820413
+s697
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXmlAppDelegate.o
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/RootViewController.o
+t1280820416
+s38060
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/XmlParser.o
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/main.o
+t1280820416
+s6308
+
+N/Users/mneedham/SandBox/iPad/LearningXml/main.m
+c000000004C57BFAB0000000000000170
+t1280819115
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch.gch
+t1280820415
+s15232016
+
+NLearningXml-Info.plist
+c000000004C57BFAB000000000000038D
+t1280819115
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302513213#302513213#0(0"0(0#1#0"8626686592#0"0#
+
+CCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/Book.o /Users/mneedham/SandBox/iPad/LearningXml/Book.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513216.383537
+e302513216.509365
+r1
+xCompileC
+xbuild/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/Book.o
+x/Users/mneedham/SandBox/iPad/LearningXml/Book.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/mneedham/SandBox/iPad/LearningXml/Book.m302513216#302513216#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/LearningXml/Book.m8627554784#2003"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch -c /Users/mneedham/SandBox/iPad/LearningXml/Book.m -o /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/Book.o0#
+
+CCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXmlAppDelegate.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513216.187945
+e302513216.383290
+r0
+xCompileC
+xbuild/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXmlAppDelegate.o
+x/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:9:
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h:20: error: expected specifier-qualifier-list before 'NSmUtableArray'
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m: In function '-[LearningXmlAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: 'XMLParser' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: (Each undeclared identifier is reported only once
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: for each function it appears in.)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: 'parser' undeclared (first use in this function)
+lSLF07#2@81"Compile /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m302513216#302513216#0(926"In file included from /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:9:/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h:20: error: expected specifier-qualifier-list before 'NSmUtableArray'/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m: In function '-[LearningXmlAppDelegate application:didFinishLaunchingWithOptions:]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: 'XMLParser' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: (Each undeclared identifier is reported only once/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: for each function it appears in.)/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m:28: error: 'parser' undeclared (first use in this function)3(4@57"Expected specifier-qualifier-list before 'NSmUtableArray'302513216#99#143#2(7@95"In file included from /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m302513216#18446744073709551615#0#0(6@73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m302512995#9#0#9#0#0"0(13@134"Expected specifier-qualifier-list before 'NSmUtableArray' in /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h302513216#18446744073709551615#0#0(6@73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h302512098#20#0#20#0#0"0(6@73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.h302512098#20#0#20#0#19"expected * before *0(4@51"'XMLParser' undeclared (first use in this function)302513216#401#137#0(6@73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m302512995#28#0#28#0#43"'*' undeclared (first use in this function)0(4@48"'parser' undeclared (first use in this function)302513216#792#134#0(6@73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m302512995#28#0#28#0#43"'*' undeclared (first use in this function)0(0#0#73"/Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m8627006240#2047"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch -c /Users/mneedham/SandBox/iPad/LearningXml/Classes/LearningXmlAppDelegate.m -o /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/LearningXmlAppDelegate.o1#
+
+CCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/RootViewController.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513216.292060
+e302513216.461444
+r1
+xCompileC
+xbuild/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/RootViewController.o
+x/Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m302513216#302513216#0(0"0(0#0#69"/Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m8624463648#2039"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch -c /Users/mneedham/SandBox/iPad/LearningXml/Classes/RootViewController.m -o /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/XmlParser.o /Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513216.461600
+e302513216.544731
+r0
+xCompileC
+xbuild/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/XmlParser.o
+x/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:14: warning: cannot find interface declaration for 'XmlParser'
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser initXMLParser]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:15: error: no super class declared in @interface for 'XmlParser'
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: 'appDelegate' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: (Each undeclared identifier is reported only once
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: for each function it appears in.)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: 'XMLAppDelegate' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: expected expression before ')' token
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:17: warning: incompatible Objective-C types returning 'struct XmlParser *', expected 'struct XMLParser *'
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:26: error: 'appDelegate' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:31: error: 'aBook' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:31: warning: receiver 'Book' is a forward class and corresponding @interface may not exist
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:foundCharacters:]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:44: error: 'currentElementValue' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:64: error: 'appDelegate' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:64: error: 'aBook' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:70: error: 'currentElementValue' undeclared (first use in this function)
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser initWithFrame:]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:78: error: no super class declared in @interface for 'XmlParser'
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser dealloc]':
+o/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:93: error: no super class declared in @interface for 'XmlParser'
+lSLF07#2@68"Compile /Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513216#302513216#0(2885"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:14: warning: cannot find interface declaration for 'XmlParser'/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser initXMLParser]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:15: error: no super class declared in @interface for 'XmlParser'/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: 'appDelegate' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: (Each undeclared identifier is reported only once/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: for each function it appears in.)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: 'XMLAppDelegate' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:16: error: expected expression before ')' token/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:17: warning: incompatible Objective-C types returning 'struct XmlParser *', expected 'struct XMLParser *'/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:26: error: 'appDelegate' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:31: error: 'aBook' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:31: warning: receiver 'Book' is a forward class and corresponding @interface may not exist/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:foundCharacters:]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:44: error: 'currentElementValue' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:64: error: 'appDelegate' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:64: error: 'aBook' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:70: error: 'currentElementValue' undeclared (first use in this function)/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser initWithFrame:]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:78: error: no super class declared in @interface for 'XmlParser'/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m: In function '-[XmlParser dealloc]':/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m:93: error: no super class declared in @interface for 'XmlParser'15(22@49"Cannot find interface declaration for 'XmlParser'302513216#0#124#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#14#0#14#0#0"0(4@53"No super class declared in @interface for 'XmlParser'302513216#228#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#15#0#15#0#0"0(4@53"'appDelegate' undeclared (first use in this function)302513216#354#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#16#0#16#0#43"'*' undeclared (first use in this function)0(4@56"'XMLAppDelegate' undeclared (first use in this function)302513216#708#129#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#16#0#16#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token302513216#837#109#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#16#0#16#0#19"expected * before *0(22@92"Incompatible Objective-C types returning 'struct XmlParser *', expected 'struct XMLParser *'302513216#946#167#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#17#0#17#0#0"0(4@53"'appDelegate' undeclared (first use in this function)302513216#1265#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#26#0#26#0#43"'*' undeclared (first use in this function)0(4@47"'aBook' undeclared (first use in this function)302513216#1391#120#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#31#0#31#0#43"'*' undeclared (first use in this function)0(22@77"Receiver 'Book' is a forward class and corresponding @interface may not exist302513216#1511#152#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#31#0#31#0#0"0(4@61"'currentElementValue' undeclared (first use in this function)302513216#1777#134#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#44#0#44#0#43"'*' undeclared (first use in this function)0(4@53"'appDelegate' undeclared (first use in this function)302513216#2050#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#64#0#64#0#43"'*' undeclared (first use in this function)0(4@47"'aBook' undeclared (first use in this function)302513216#2176#120#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#64#0#64#0#43"'*' undeclared (first use in this function)0(4@61"'currentElementValue' undeclared (first use in this function)302513216#2296#134#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#70#0#70#0#43"'*' undeclared (first use in this function)0(4@53"No super class declared in @interface for 'XmlParser'302513216#2535#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#78#0#78#0#0"0(4@53"No super class declared in @interface for 'XmlParser'302513216#2759#126#0(6@60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m302513078#93#0#93#0#0"0(0#0#60"/Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m8626577440#2021"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch -c /Users/mneedham/SandBox/iPad/LearningXml/Classes/XmlParser.m -o /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/XmlParser.o1#
+
+CCompileC build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/LearningXml/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513216.186260
+e302513216.291934
+r1
+xCompileC
+xbuild/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/main.o
+x/Users/mneedham/SandBox/iPad/LearningXml/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/mneedham/SandBox/iPad/LearningXml/main.m302513216#302513216#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/LearningXml/main.m8628351392#2003"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch -c /Users/mneedham/SandBox/iPad/LearningXml/main.m -o /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib
+s302513213.362288
+e302513214.772888
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302513213#302513214#0(0"0(0#0#55"/Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib8624923488#580"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/MainWindow.nib /Users/mneedham/SandBox/iPad/LearningXml/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib
+s302513213.380066
+e302513214.667482
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib302513213#302513214#0(0"0(0#0#63"/Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib8620909056#596"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/RootViewController.nib /Users/mneedham/SandBox/iPad/LearningXml/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app.dSYM /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/LearningXml
+r0
+
+CLd /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/LearningXml normal i386
+r0
+
+CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/Info.plist LearningXml-Info.plist
+s302513213.341146
+e302513213.362183
+r1
+xProcessInfoPlistFile
+x/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/Info.plist
+xLearningXml-Info.plist
+lSLF07#2@30"Process LearningXml-Info.plist302513213#302513213#0(0"0(0#0#63"/Users/mneedham/SandBox/iPad/LearningXml/LearningXml-Info.plist8625647232#497"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LearningXml-Info.plist -genpkginfo /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app/Info.plist0#
+
+CProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch.gch LearningXml_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302513214.773064
+e302513216.186059
+r1
+xProcessPCH
+x/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch.gch
+xLearningXml_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile LearningXml_Prefix.pch302513214#302513216#0(0"0(0#0#63"/Users/mneedham/SandBox/iPad/LearningXml/LearningXml_Prefix.pch8629038656#1889"    cd /Users/mneedham/SandBox/iPad/LearningXml    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-generated-files.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/LearningXml-project-headers.hmap -F/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/LearningXml/build/LearningXml.build/Debug-iphonesimulator/LearningXml.build/DerivedSources -c /Users/mneedham/SandBox/iPad/LearningXml/LearningXml_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LearningXml_Prefix-gkufdgqohjfhbjcglglajkgtocfm/LearningXml_Prefix.pch.gch0#
+
+CTouch /Users/mneedham/SandBox/iPad/LearningXml/build/Debug-iphonesimulator/LearningXml.app
+r0
+

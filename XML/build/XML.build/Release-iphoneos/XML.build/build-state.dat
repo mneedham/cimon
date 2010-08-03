@@ -1,0 +1,612 @@
+TXML
+v7
+r0
+t302513383.680329
+cCheck dependencies
+cCpResource build/Release-iphoneos/XML.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/Info.plist Info.plist
+cCompileXIB /Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+cProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch.gch XML_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch.gch XML_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/main.o /Users/mneedham/SandBox/iPad/XML/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLAppDelegate.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/RootViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/Book.o /Users/mneedham/SandBox/iPad/XML/Classes/Book.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLParser.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/BookDetailViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/main.o /Users/mneedham/SandBox/iPad/XML/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML normal armv6
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLAppDelegate.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/RootViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/Book.o /Users/mneedham/SandBox/iPad/XML/Classes/Book.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLParser.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/BookDetailViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML normal armv7
+cCreateUniversalBinary /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML normal "armv6 armv7"
+cGenerateDSYMFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app.dSYM /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML
+cProcessProductPackaging "/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision" /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision
+cTouch /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent
+cCodeSign /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C1BB8220000000000000110
+t1276885026
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004C06E99F00000000000001A7
+t1275521439
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004C06E99F00000000000001E5
+t1275521439
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision
+c000000004C5421D4000000000000A9E2
+t1280582100
+s43490
+
+N/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+c00000000492A51BF0000000000001F13
+t1227510207
+s7955
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/Book.h
+c00000000492A07E1000000000000022E
+t1227491297
+s558
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/Book.m
+c00000000492A0256000000000000013B
+t1227489878
+s315
+i"Book.h"
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.h
+c00000000492A51800000000000000156
+t1227510144
+s342
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m
+c00000000492A51850000000000000A6B
+t1227510149
+s2667
+i"BookDetailViewController.h"
+i"Book.h"
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.h
+c00000000492A4E86000000000000015E
+t1227509382
+s350
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m
+c00000000492A50860000000000000F79
+t1227509894
+s3961
+i"RootViewController.h"
+i"XMLAppDelegate.h"
+i"Book.h"
+i"BookDetailViewController.h"
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.h
+c00000000492A04B50000000000000212
+t1227490485
+s530
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m
+c00000000494C3A84000000000000049D
+t1229732484
+s1181
+i"XMLAppDelegate.h"
+i"RootViewController.h"
+i"XMLParser.h"
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.h
+c00000000494866510000000000000158
+t1229481553
+s344
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m
+c00000000494C3C2E0000000000000808
+t1229732910
+s2056
+i"XMLParser.h"
+i"XMLAppDelegate.h"
+i"Book.h"
+
+N/Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+c00000000492A01FD0000000000002A08
+t1227489789
+s10760
+
+N/Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+c00000000492A01FD0000000000001D71
+t1227489789
+s7537
+
+N/Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch
+c00000000492A01FD00000000000000AF
+t1227489789
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+t1280820583
+s408
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app.dSYM
+t1280820580
+s102
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/BookDetailView.nib
+t1280820575
+s1194
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/Info.plist
+t1280820574
+s705
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/MainWindow.nib
+t1280820575
+s1481
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/PkgInfo
+t1280820574
+s8
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/ResourceRules.plist
+t1280820574
+s485
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/RootViewController.nib
+t1280820575
+s1077
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML
+t1280820580
+s60672
+
+N/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision
+t1280820580
+s43490
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/Book.o
+t1280820578
+s9836
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/BookDetailViewController.o
+t1280820578
+s40528
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/RootViewController.o
+t1280820578
+s46432
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML
+t1280820579
+s27904
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML.LinkFileList
+c000000004C57C55E00000000000002A1
+t1280820574
+s673
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLAppDelegate.o
+t1280820578
+s47636
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLParser.o
+t1280820578
+s44772
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/main.o
+t1280820578
+s6424
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/Book.o
+t1280820579
+s9852
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/BookDetailViewController.o
+t1280820579
+s40568
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/RootViewController.o
+t1280820579
+s46408
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML
+t1280820580
+s27904
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML.LinkFileList
+c000000004C57C55E00000000000002A1
+t1280820574
+s673
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLAppDelegate.o
+t1280820579
+s47604
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLParser.o
+t1280820579
+s44716
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/main.o
+t1280820578
+s6404
+
+N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent
+t1280820580
+s412
+
+N/Users/mneedham/SandBox/iPad/XML/main.m
+c00000000492A026F0000000000000160
+t1227489903
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch.gch
+t1280820577
+s9233044
+
+N/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch.gch
+t1280820578
+s8774292
+
+NInfo.plist
+c00000000492A01FD0000000000000381
+t1227489789
+s897
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302513374#302513374#0(129"[BWARN]warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.1(22@121"warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.302513374#18446744073709551615#0#0(1@0"0(0#1#0"8628786848#0"0#
+
+CCodeSign /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+s302513380.228592
+e302513383.680219
+r1
+xCodeSign
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+lSLF07#2@39"CodeSign build/Release-iphoneos/XML.app302513380#302513383#0(0"0(0#0#63"/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app8625794912#610"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Mark Needham (2M8GMHYZV4)" --resource-rules=/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/ResourceRules.plist --entitlements /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/Book.o /Users/mneedham/SandBox/iPad/XML/Classes/Book.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.356368
+e302513378.522518
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/Book.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/Book.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/mneedham/SandBox/iPad/XML/Classes/Book.m302513378#302513378#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/Classes/Book.m8628647808#1621"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/Book.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/Book.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/BookDetailViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.590829
+e302513378.859059
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/BookDetailViewController.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m: In function '-[BookDetailViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:79: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:82: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:85: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+lSLF07#2@75"Compile /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m302513378#302513378#0(931"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m: In function '-[BookDetailViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:79: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:82: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:85: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)3(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513378#145#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#79#0#79#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513378#407#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#82#0#82#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513378#669#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#85#0#85#0#33"'*' is deprecated (declared at *)0(0#0#67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m8628701312#1661"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/BookDetailViewController.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/RootViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.328677
+e302513378.590695
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/RootViewController.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+lSLF07#2@69"Compile /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m302513378#302513378#0(389"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)1(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513378#133#256#0(6@61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m249202694#37#0#37#0#33"'*' is deprecated (declared at *)0(0#0#61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m8628952224#1649"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLAppDelegate.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.078375
+e302513378.356237
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLAppDelegate.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m302513378#302513378#0(0"0(0#0#57"/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m8626536608#1641"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLAppDelegate.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLParser.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.522652
+e302513378.796645
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLParser.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m302513378#302513378#0(0"0(0#0#52"/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m8628399104#1631"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XMLParser.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/main.o /Users/mneedham/SandBox/iPad/XML/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513378.076532
+e302513378.328544
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/main.o
+x/Users/mneedham/SandBox/iPad/XML/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mneedham/SandBox/iPad/XML/main.m302513378#302513378#0(0"0(0#0#39"/Users/mneedham/SandBox/iPad/XML/main.m8628712608#1613"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/main.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/Book.o /Users/mneedham/SandBox/iPad/XML/Classes/Book.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513379.414942
+e302513379.632675
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/Book.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/Book.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/mneedham/SandBox/iPad/XML/Classes/Book.m302513379#302513379#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/Classes/Book.m8630040800#1621"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/Book.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/Book.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/BookDetailViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513379.632951
+e302513379.851978
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/BookDetailViewController.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m: In function '-[BookDetailViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:79: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:82: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+o/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:85: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+lSLF07#2@75"Compile /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m302513379#302513379#0(931"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m: In function '-[BookDetailViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:79: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:82: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m:85: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)3(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513379#145#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#79#0#79#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513379#407#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#82#0#82#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513379#669#262#0(6@67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m249202949#85#0#85#0#33"'*' is deprecated (declared at *)0(0#0#67"/Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m8628429440#1661"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/BookDetailViewController.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/BookDetailViewController.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/RootViewController.o /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513379.085285
+e302513379.438873
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/RootViewController.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)
+lSLF07#2@69"Compile /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m302513379#302513379#0(389"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)1(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513379#133#256#0(6@61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m249202694#37#0#37#0#33"'*' is deprecated (declared at *)0(0#0#61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m8628070944#1649"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLAppDelegate.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513378.885520
+e302513379.085096
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLAppDelegate.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m302513378#302513379#0(0"0(0#0#57"/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m8628807168#1641"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLAppDelegate.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLParser.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513379.439022
+e302513379.738735
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLParser.o
+x/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m302513379#302513379#0(0"0(0#0#52"/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m8629182208#1631"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XMLParser.o0#
+
+CCompileC build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/main.o /Users/mneedham/SandBox/iPad/XML/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513378.796773
+e302513378.885383
+r1
+xCompileC
+xbuild/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/main.o
+x/Users/mneedham/SandBox/iPad/XML/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mneedham/SandBox/iPad/XML/main.m302513378#302513378#0(0"0(0#0#39"/Users/mneedham/SandBox/iPad/XML/main.m8629421536#1613"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/main.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+s302513375.063206
+e302513375.700330
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+o/* com.apple.ibtool.document.errors */
+o/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib:3: error: Pattern colors are not supported by the iPhone SDK for iPhone OS versions prior to 3.0.
+lSLF07#2@29"CompileXIB BookDetailView.xib302513375#302513375#0(189"/* com.apple.ibtool.document.errors *//Users/mneedham/SandBox/iPad/XML/BookDetailView.xib:3: error: Pattern colors are not supported by the iPhone SDK for iPhone OS versions prior to 3.0.1(4@87"Pattern colors are not supported by the iPhone SDK for iPhone OS versions prior to 3.0.302513375#18446744073709551615#0#0(6@51"/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib249203007#3#0#3#0#0"0(0#0#51"/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib8629596288#530"    cd /Users/mneedham/SandBox/iPad/XML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/BookDetailView.nib /Users/mneedham/SandBox/iPad/XML/BookDetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+s302513374.151834
+e302513375.239379
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302513374#302513375#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/MainWindow.xib8629718432#522"    cd /Users/mneedham/SandBox/iPad/XML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/MainWindow.nib /Users/mneedham/SandBox/iPad/XML/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+s302513374.162312
+e302513375.063089
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib302513374#302513375#0(0"0(0#0#55"/Users/mneedham/SandBox/iPad/XML/RootViewController.xib8629333632#538"    cd /Users/mneedham/SandBox/iPad/XML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/RootViewController.nib /Users/mneedham/SandBox/iPad/XML/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk0#
+
+CCpResource build/Release-iphoneos/XML.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s302513374.056546
+e302513374.151725
+r1
+xCpResource
+xbuild/Release-iphoneos/XML.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist302513374#302513374#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8629102880#487"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app0#
+
+CCreateUniversalBinary /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML normal "armv6 armv7"
+s302513380.058164
+e302513380.099939
+r1
+xCreateUniversalBinary
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML
+xnormal
+xarmv6 armv7
+lSLF07#2@77"CreateUniversalBinary build/Release-iphoneos/XML.app/XML normal "armv6 armv7"302513380#302513380#0(0"0(0#0#44"/Users/mneedham/SandBox/iPad/XML/armv6 armv78629304896#468"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML -output /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML0#
+
+CGenerateDSYMFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app.dSYM /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML
+s302513380.100051
+e302513380.182271
+r1
+xGenerateDSYMFile
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app.dSYM
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML
+lSLF07#2@87"GenerateDSYMFile build/Release-iphoneos/XML.app.dSYM build/Release-iphoneos/XML.app/XML302513380#302513380#0(0"0(0#0#67"/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML8629104832#336"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/XML -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app.dSYM0#
+
+CLd /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML normal armv6
+s302513378.859196
+e302513379.414793
+r1
+xLd
+x/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML
+xnormal
+xarmv6
+lSLF07#2@105"Link /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML302513378#302513379#0(0"0(0#0#0"8629052032#813"    cd /Users/mneedham/SandBox/iPad/XML    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -filelist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv6/XML0#
+
+CLd /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML normal armv7
+s302513379.852098
+e302513380.058040
+r1
+xLd
+x/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML
+xnormal
+xarmv7
+lSLF07#2@105"Link /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML302513379#302513380#0(0"0(0#0#0"8628592256#813"    cd /Users/mneedham/SandBox/iPad/XML    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -filelist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/Objects-normal/armv7/XML0#
+
+CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/Info.plist Info.plist
+s302513374.058554
+e302513374.111641
+r1
+xProcessInfoPlistFile
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist302513374#302513374#0(0"0(0#0#43"/Users/mneedham/SandBox/iPad/XML/Info.plist8628958592#524"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/ResourceRules.plist -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/Info.plist0#
+
+CProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch.gch XML_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s302513375.702868
+e302513377.967359
+r1
+xProcessPCH
+x/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch.gch
+xXML_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile XML_Prefix.pch302513375#302513377#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch8628861088#1519"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv7 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -c /Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-gciwplbwoteoppfqobkorwyaojrc/XML_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch.gch XML_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302513375.700627
+e302513378.076398
+r1
+xProcessPCH
+x/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch.gch
+xXML_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile XML_Prefix.pch302513375#302513378#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch8628970048#1519"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources/armv6 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/DerivedSources -c /Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-hdeectwsvynlcfgtbxpjjsmfltqi/XML_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision" /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision
+s302513380.182399
+e302513380.205620
+r1
+xProcessProductPackaging
+x/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision" build/Release-iphoneos/XML.app/embedded.mobileprovision302513380#302513380#0(0"0(0#0#88"/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision8628571168#412"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mneedham/Library/MobileDevice/Provisioning Profiles/46ABDCC2-6E9B-4857-8C2B-E668863BE7DA.mobileprovision" -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent
+s302513380.212695
+e302513380.228512
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent
+lSLF07#2@165"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/XML.build/Release-iphoneos/XML.build/XML.xcent302513380#302513380#0(0"0(0#0#85"/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent8628051360#410"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphoneos/XML.build/XML.xcent0#
+
+CTouch /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+s302513380.205706
+e302513380.212350
+r1
+xTouch
+x/Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app
+lSLF07#2@69"Touch /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app302513380#302513380#0(0"0(0#0#0"8627575744#250"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mneedham/SandBox/iPad/XML/build/Release-iphoneos/XML.app0#
+

@@ -1,0 +1,362 @@
+TCIMon
+v7
+r0
+t302532157.111651
+cCheck dependencies
+cProcessInfoPlistFile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/Info.plist CIMon-Info.plist
+cCompileXIB /Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/CIMon/SecondView.xib
+cCompileXIB /Users/mneedham/SandBox/iPad/CIMon/FirstView.xib
+cCpResource build/Debug-iphonesimulator/CIMon.app/cctray.xml cctray.xml
+cProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch.gch CIMon_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/CIMon/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMonAppDelegate.o /Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/FirstViewController.o /Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/SecondViewController.o /Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/XMLParser.o /Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon normal i386
+cGenerateDSYMFile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app.dSYM /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon
+cTouch /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/mneedham/SandBox/iPad/CIMon/CIMon_Prefix.pch
+c000000004C55A53300000000000000B3
+t1280681267
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.h
+c000000004C55A53300000000000001D6
+t1280681267
+s470
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m
+c000000004C55A533000000000000091A
+t1280681267
+s2330
+i"CIMonAppDelegate.h"
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.h
+c000000004C57ED130000000000000127
+t1280830739
+s295
+i<UIKit/UIKit.h>
+i"CIMonAppDelegate.h"
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m
+c000000004C580C400000000000000798
+t1280838720
+s1944
+i"FirstViewController.h"
+i"XMLParser.h"
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.h
+c000000004C55A53300000000000000ED
+t1280681267
+s237
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m
+c000000004C55A533000000000000039F
+t1280681267
+s927
+i"SecondViewController.h"
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.h
+c000000004C58092B000000000000015D
+t1280837931
+s349
+i<UIKit/UIKit.h>
+
+N/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m
+c000000004C580EBA0000000000000827
+t1280839354
+s2087
+i"XMLParser.h"
+
+N/Users/mneedham/SandBox/iPad/CIMon/FirstView.xib
+c000000004C579EEC0000000000004519
+t1280810732
+s17689
+
+N/Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib
+c000000004C579F120000000000006105
+t1280810770
+s24837
+
+N/Users/mneedham/SandBox/iPad/CIMon/SecondView.xib
+c000000004C55A5BE0000000000005C59
+t1280681406
+s23641
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMon.LinkFileList
+c000000004C57EC7E000000000000026A
+t1280830590
+s618
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMonAppDelegate.o
+t1280681278
+s48328
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/FirstViewController.o
+t1280838729
+s47292
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/SecondViewController.o
+t1280681279
+s34268
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/XMLParser.o
+t1280839357
+s11916
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/main.o
+t1280681278
+s6296
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app
+t1280839357
+s306
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app.dSYM
+t1280839357
+s102
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon
+t1280839357
+s24804
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/FirstView.nib
+t1280810776
+s914
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/Info.plist
+t1280681274
+s790
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/MainWindow.nib
+t1280810776
+s1578
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/PkgInfo
+t1280681274
+s8
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/SecondView.nib
+t1280681409
+s1900
+
+N/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/cctray.xml
+t1280811466
+s2259
+
+N/Users/mneedham/SandBox/iPad/CIMon/cctray.xml
+c000000004C57088300000000000008D3
+t1280772227
+s2259
+
+N/Users/mneedham/SandBox/iPad/CIMon/main.m
+c000000004C55A5330000000000000166
+t1280681267
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch.gch
+t1280681278
+s13825936
+
+NCIMon-Info.plist
+c000000004C55A53300000000000004D6
+t1280681267
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302532156#302532156#0(0"0(0#1#0"8627247072#0"0#
+
+CCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMonAppDelegate.o /Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302374078.720464
+e302374078.954409
+r1
+xCompileC
+xbuild/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMonAppDelegate.o
+x/Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m302374078#302374078#0(0"0(0#0#61"/Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m8614177568#1849"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch -c /Users/mneedham/SandBox/iPad/CIMon/Classes/CIMonAppDelegate.m -o /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMonAppDelegate.o0#
+
+CCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/FirstViewController.o /Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302531528.747268
+e302531529.094362
+r1
+xCompileC
+xbuild/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/FirstViewController.o
+x/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m: In function '-[FirstViewController viewDidLoad]':
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: 'XMLParser' may not respond to '-currentElementValue'
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: (Messages without a matching method signature
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: will be assumed to return 'id' and accept
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: '...' as arguments.)
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:28: warning: unused variable 'path'
+lSLF07#2@72"Compile /Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m302531528#302531529#0(692"/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m: In function '-[FirstViewController viewDidLoad]':/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: 'XMLParser' may not respond to '-currentElementValue'/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: (Messages without a matching method signature/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: will be assumed to return 'id' and accept/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:40: warning: '...' as arguments.)/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m:28: warning: unused variable 'path'3(22@53"'XMLParser' may not respond to '-currentElementValue'302531529#116#132#0(6@64"/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m302531520#40#0#40#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302531529#248#124#0(6@64"/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m302531520#40#0#40#0#0"0(22@22"Unused variable 'path'302531529#591#101#0(6@64"/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m302531520#28#0#28#0#19"unused variable '*'0(0#0#64"/Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m8627877024#1855"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch -c /Users/mneedham/SandBox/iPad/CIMon/Classes/FirstViewController.m -o /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/SecondViewController.o /Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302374078.954564
+e302374079.134717
+r1
+xCompileC
+xbuild/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/SecondViewController.o
+x/Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m302374078#302374079#0(0"0(0#0#65"/Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m8612942976#1857"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch -c /Users/mneedham/SandBox/iPad/CIMon/Classes/SecondViewController.m -o /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/XMLParser.o /Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302532156.675681
+e302532157.025025
+r1
+xCompileC
+xbuild/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/XMLParser.o
+x/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m:86: warning: incomplete implementation of class 'XMLParser'
+o/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m:86: warning: method definition for '-getCurrentElementValue' not found
+lSLF07#2@62"Compile /Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m302532156#302532157#0(241"/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m:86: warning: incomplete implementation of class 'XMLParser'/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m:86: warning: method definition for '-getCurrentElementValue' not found2(22@46"Incomplete implementation of class 'XMLParser'302532156#0#115#0(6@54"/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m302532154#86#0#86#0#38"incomplete implementation of class '*'0(22@57"Method definition for '-getCurrentElementValue' not found302532156#115#126#0(6@54"/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m302532154#86#0#86#0#35"method definition for '*' not found0(0#0#54"/Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m8625384000#1835"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch -c /Users/mneedham/SandBox/iPad/CIMon/Classes/XMLParser.m -o /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/XMLParser.o0#
+
+CCompileC build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/CIMon/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302374078.718636
+e302374078.826190
+r1
+xCompileC
+xbuild/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/main.o
+x/Users/mneedham/SandBox/iPad/CIMon/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/mneedham/SandBox/iPad/CIMon/main.m302374078#302374078#0(0"0(0#0#41"/Users/mneedham/SandBox/iPad/CIMon/main.m8614376096#1817"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch -c /Users/mneedham/SandBox/iPad/CIMon/main.m -o /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/CIMon/FirstView.xib
+s302503576.331635
+e302503576.936668
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/CIMon/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib302503576#302503576#0(0"0(0#0#48"/Users/mneedham/SandBox/iPad/CIMon/FirstView.xib8625203552#554"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/FirstView.nib /Users/mneedham/SandBox/iPad/CIMon/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib
+s302503576.329678
+e302503576.927281
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302503576#302503576#0(0"0(0#0#49"/Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib8625256128#556"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/MainWindow.nib /Users/mneedham/SandBox/iPad/CIMon/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/CIMon/SecondView.xib
+s302374208.186682
+e302374209.138383
+r1
+xCompileXIB
+x/Users/mneedham/SandBox/iPad/CIMon/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib302374208#302374209#0(0"0(0#0#49"/Users/mneedham/SandBox/iPad/CIMon/SecondView.xib8606872704#556"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/SecondView.nib /Users/mneedham/SandBox/iPad/CIMon/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/CIMon.app/cctray.xml cctray.xml
+s302504266.470298
+e302504266.527511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CIMon.app/cctray.xml
+xcctray.xml
+lSLF07#2@15"Copy cctray.xml302504266#302504266#0(0"0(0#0#45"/Users/mneedham/SandBox/iPad/CIMon/cctray.xml32088624093986912#440"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mneedham/SandBox/iPad/CIMon/cctray.xml /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app0#
+
+CGenerateDSYMFile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app.dSYM /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon
+s302532157.065803
+e302532157.104673
+r1
+xGenerateDSYMFile
+x/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app.dSYM
+x/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/CIMon.app.dSYM build/Debug-iphonesimulator/CIMon.app/CIMon302532157#302532157#0(0"0(0#0#78"/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon8629899744#365"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon -o /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app.dSYM0#
+
+CLd /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon normal i386
+s302532157.025143
+e302532157.065677
+r1
+xLd
+x/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon
+xnormal
+xi386
+lSLF07#2@83"Link /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon302532157#302532157#0(0"0(0#0#0"8630102688#870"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -filelist /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/Objects-normal/i386/CIMon.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/CIMon0#
+
+CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/Info.plist CIMon-Info.plist
+s302374074.420139
+e302374074.424932
+r1
+xProcessInfoPlistFile
+x/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/Info.plist
+xCIMon-Info.plist
+lSLF07#2@24"Process CIMon-Info.plist302374074#302374074#0(0"0(0#0#51"/Users/mneedham/SandBox/iPad/CIMon/CIMon-Info.plist8603705216#461"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CIMon-Info.plist -genpkginfo /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app/Info.plist0#
+
+CProcessPCH /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch.gch CIMon_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302374077.082769
+e302374078.718342
+r1
+xProcessPCH
+x/var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch.gch
+xCIMon_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile CIMon_Prefix.pch302374077#302374078#0(0"0(0#0#51"/Users/mneedham/SandBox/iPad/CIMon/CIMon_Prefix.pch8606794432#1715"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-generated-files.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/CIMon-project-headers.hmap -F/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator -I/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/CIMon/build/CIMon.build/Debug-iphonesimulator/CIMon.build/DerivedSources -c /Users/mneedham/SandBox/iPad/CIMon/CIMon_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CIMon_Prefix-bjglhejfkkfoszbaaseepgtolojq/CIMon_Prefix.pch.gch0#
+
+CTouch /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app
+s302532157.105137
+e302532157.111596
+r1
+xTouch
+x/Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app
+lSLF07#2@78"Touch /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app302532157#302532157#0(0"0(0#0#0"8629030304#268"    cd /Users/mneedham/SandBox/iPad/CIMon    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mneedham/SandBox/iPad/CIMon/build/Debug-iphonesimulator/CIMon.app0#
+

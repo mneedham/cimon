@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* LearningXmlAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1296, 704}}";
+			sepNavSelRange = "{543, 0}";
+			sepNavVisRange = "{0, 559}";
+			sepNavWindowFrame = "{{15, 41}, {1355, 832}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LearningXmlAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1300}}";
+			sepNavSelRange = "{759, 0}";
+			sepNavVisRange = "{469, 435}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LearningXml */ = {
+		activeExec = 0;
+		executables = (
+			E1992B731207F72B00BED8E1 /* LearningXml */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E1992B731207F72B00BED8E1 /* LearningXml */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LearningXml */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* LearningXml */,
+		);
+		codeSenseManager = E1992B7D1207F73000BED8E1 /* Code sense */;
+		executables = (
+			E1992B731207F72B00BED8E1 /* LearningXml */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302511915;
+			PBXWorkspaceStateSaveDate = 302511915;
+		};
+		perUserProjectItems = {
+			E1992B881207F79500BED8E1 /* PBXTextBookmark */ = E1992B881207F79500BED8E1 /* PBXTextBookmark */;
+			E1992C041207FE8400BED8E1 /* PBXTextBookmark */ = E1992C041207FE8400BED8E1 /* PBXTextBookmark */;
+			E1992C061207FE8400BED8E1 /* PBXTextBookmark */ = E1992C061207FE8400BED8E1 /* PBXTextBookmark */;
+			E1992C071207FE8400BED8E1 /* PBXTextBookmark */ = E1992C071207FE8400BED8E1 /* PBXTextBookmark */;
+			E1992C0F1207FEDE00BED8E1 /* PBXTextBookmark */ = E1992C0F1207FEDE00BED8E1 /* PBXTextBookmark */;
+			E1992C101207FEDE00BED8E1 /* PBXTextBookmark */ = E1992C101207FEDE00BED8E1 /* PBXTextBookmark */;
+			E1992C221208143A00BED8E1 /* PBXTextBookmark */ = E1992C221208143A00BED8E1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E1992B7C1207F73000BED8E1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E1992B731207F72B00BED8E1 /* LearningXml */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LearningXml;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E1992B7C1207F73000BED8E1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E1992B7D1207F73000BED8E1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E1992B801207F74500BED8E1 /* Book.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 528}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	E1992B811207F74500BED8E1 /* Book.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 528}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	E1992B881207F79500BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1992B811207F74500BED8E1 /* Book.m */;
+		name = "Book.m: 16";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	E1992B8B1207F80E00BED8E1 /* XmlParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 528}}";
+			sepNavSelRange = "{345, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	E1992B8C1207F80E00BED8E1 /* XmlParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1235}}";
+			sepNavSelRange = "{1998, 0}";
+			sepNavVisRange = "{1338, 904}";
+		};
+	};
+	E1992C041207FE8400BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1992B801207F74500BED8E1 /* Book.h */;
+		name = "Book.h: 8";
+		rLen = 0;
+		rLoc = 138;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	E1992C061207FE8400BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1992B8B1207F80E00BED8E1 /* XmlParser.h */;
+		name = "XmlParser.h: 21";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 0;
+	};
+	E1992C071207FE8400BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LearningXmlAppDelegate.h */;
+		name = "LearningXmlAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 499;
+		rType = 0;
+		vrLen = 559;
+		vrLoc = 0;
+	};
+	E1992C0F1207FEDE00BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LearningXmlAppDelegate.m */;
+		name = "LearningXmlAppDelegate.m: 45";
+		rLen = 0;
+		rLoc = 1053;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 223;
+	};
+	E1992C101207FEDE00BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1992B8C1207F80E00BED8E1 /* XmlParser.m */;
+		name = "XmlParser.m: 17";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 0;
+	};
+	E1992C221208143A00BED8E1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1992B8C1207F80E00BED8E1 /* XmlParser.m */;
+		name = "XmlParser.m: 79";
+		rLen = 0;
+		rLoc = 1998;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 1338;
+	};
+}

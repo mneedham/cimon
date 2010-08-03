@@ -1,0 +1,68 @@
+TXML
+v7
+r1
+cCheck dependencies
+
+N/Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+c00000000492A51BF0000000000001F13
+t1227510207
+s7955
+
+N/Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+c00000000492A01FD0000000000002A08
+t1227489789
+s10760
+
+N/Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+c00000000492A01FD0000000000001D71
+t1227489789
+s7537
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/Info.plist
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/Resources/BookDetailView.nib
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+NInfo.plist
+c00000000492A01FD0000000000000381
+t1227489789
+s897
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302513342#302513342#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos2.1'1(4@58"error: There is no SDK with the name or path 'iphoneos2.1'302513342#18446744073709551615#0#0(1@0"0(0#1#0"8630209952#0"0#
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/BookDetailView.xib
+r0
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/MainWindow.xib
+r0
+
+CCompileXIB /Users/mneedham/SandBox/iPad/XML/RootViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Users/mneedham/SandBox/iPad/XML/build/Debug/XML.app
+r0
+

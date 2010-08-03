@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+  <Project name="Project 1 :: Fast" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 1 :: Fast :: Compile" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 1 :: Fast :: Test" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 1 :: Slow" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 1 :: Slow :: Deploy" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 1 :: Slow :: Test" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 2 :: Performance" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 2 :: Performance :: SunOS" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+    <Project name="Project 2 :: Performance :: Irix" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="3.0.754" lastBuildTime="2009-07-27T14:17:19" webUrl="http://localhost:8153/cruise/tab/stage/detail/enterprisecorp-3/3.0.754/build/1" />
+</Projects>
