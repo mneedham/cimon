@@ -19,6 +19,7 @@
 		28D4B068107A5DE70093E739 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D4B067107A5DE70093E739 /* FirstView.xib */; };
 		E1992B6B1207D90A00BED8E1 /* cctray.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1992B6A1207D90A00BED8E1 /* cctray.xml */; };
 		E1992C45120815C200BED8E1 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1992C44120815C200BED8E1 /* XMLParser.m */; };
+		E1992EC21209B20B00BED8E1 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = E1992EC11209B20B00BED8E1 /* Project.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		E1992B6A1207D90A00BED8E1 /* cctray.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cctray.xml; sourceTree = "<group>"; };
 		E1992C43120815C200BED8E1 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		E1992C44120815C200BED8E1 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		E1992EC01209B20B00BED8E1 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		E1992EC11209B20B00BED8E1 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				284F763F10B34E8A00D7BA5B /* SecondViewController.h */,
 				284F764010B34E8A00D7BA5B /* SecondViewController.m */,
+				E1992EC01209B20B00BED8E1 /* Project.h */,
+				E1992EC11209B20B00BED8E1 /* Project.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				284F764110B34E8A00D7BA5B /* SecondViewController.m in Sources */,
 				E1992C45120815C200BED8E1 /* XMLParser.m in Sources */,
+				E1992EC21209B20B00BED8E1 /* Project.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

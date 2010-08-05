@@ -1,7 +1,7 @@
 TXML
 v7
 r0
-t302513906.036766
+t302533621.077701
 cCheck dependencies
 cProcessInfoPlistFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/Info.plist Info.plist
 cCompileXIB /Users/mneedham/SandBox/iPad/XML/MainWindow.xib
@@ -100,8 +100,8 @@ s530
 i<UIKit/UIKit.h>
 
 N/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m
-c00000000494C3A84000000000000049D
-t1229732484
+c000000004C57E397000000000000049D
+t1280828311
 s1181
 i"XMLAppDelegate.h"
 i"RootViewController.h"
@@ -114,9 +114,9 @@ s344
 i<UIKit/UIKit.h>
 
 N/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m
-c00000000494C3C2E0000000000000808
-t1229732910
-s2056
+c000000004C58147300000000000007FB
+t1280840819
+s2043
 i"XMLParser.h"
 i"XMLAppDelegate.h"
 i"Book.h"
@@ -139,11 +139,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app
-t1280820595
+t1280840821
 s272
 
 N/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM
-t1280820595
+t1280840821
 s102
 
 N/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/BookDetailView.nib
@@ -167,7 +167,7 @@ t1280820592
 s1077
 
 N/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
-t1280820595
+t1280840821
 s28460
 
 N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/Book.o
@@ -188,12 +188,12 @@ t1280820591
 s709
 
 N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o
-t1280820595
+t1280840820
 s48136
 
 N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o
-t1280820595
-s45348
+t1280840820
+s45312
 
 N/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/main.o
 t1280820595
@@ -216,7 +216,7 @@ s897
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies302513905#302513906#0(0"0(0#1#0"8628902080#0"0#
+lSLF07#2@18"Check dependencies302533620#302533620#0(0"0(0#1#0"8631373216#0"0#
 
 CCompileC build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/Book.o /Users/mneedham/SandBox/iPad/XML/Classes/Book.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s302513395.417051
@@ -264,8 +264,8 @@ o/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'set
 lSLF07#2@69"Compile /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m302513395#302513395#0(403"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m:37: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:210)302513395#133#270#0(6@61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m249202694#37#0#37#0#33"'*' is deprecated (declared at *)0(0#0#61"/Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m8630504128#1826"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/RootViewController.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302513394.988498
-e302513395.416912
+s302533620.490432
+e302533620.899817
 r1
 xCompileC
 xbuild/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o
@@ -274,11 +274,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m302513394#302513395#0(0"0(0#0#57"/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m8627903904#1818"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o0#
+lSLF07#2@65"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m302533620#302533620#0(0"0(0#0#57"/Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m8630747840#1818"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLAppDelegate.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o0#
 
 CCompileC build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302513395.473218
-e302513395.742587
+s302533620.496384
+e302533620.981992
 r1
 xCompileC
 xbuild/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o
@@ -287,7 +287,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m302513395#302513395#0(0"0(0#0#52"/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m8628698016#1808"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o0#
+lSLF07#2@60"Compile /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m302533620#302533620#0(0"0(0#0#52"/Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m8630462336#1808"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -include /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch -c /Users/mneedham/SandBox/iPad/XML/Classes/XMLParser.m -o /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o0#
 
 CCompileC build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/main.o /Users/mneedham/SandBox/iPad/XML/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s302513394.986368
@@ -329,23 +329,23 @@ x/Users/mneedham/SandBox/iPad/XML/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib302513391#302513392#0(0"0(0#0#55"/Users/mneedham/SandBox/iPad/XML/RootViewController.xib8625039744#566"    cd /Users/mneedham/SandBox/iPad/XML    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/RootViewController.nib /Users/mneedham/SandBox/iPad/XML/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
 
 CGenerateDSYMFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
-s302513395.886243
-e302513395.921328
+s302533621.027324
+e302533621.071827
 r1
 xGenerateDSYMFile
 x/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM
 x/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
-lSLF07#2@101"GenerateDSYMFile build/Release-iphonesimulator/XML.app.dSYM build/Release-iphonesimulator/XML.app/XML302513395#302513395#0(0"0(0#0#74"/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML8627778624#357"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM0#
+lSLF07#2@101"GenerateDSYMFile build/Release-iphonesimulator/XML.app.dSYM build/Release-iphonesimulator/XML.app/XML302533621#302533621#0(0"0(0#0#74"/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML8625002912#357"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM0#
 
 CLd /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML normal i386
-s302513395.820723
-e302513395.886119
+s302533620.982142
+e302533621.027165
 r1
 xLd
 x/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
 xnormal
 xi386
-lSLF07#2@79"Link /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML302513395#302513395#0(0"0(0#0#0"8625170688#858"    cd /Users/mneedham/SandBox/iPad/XML    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -filelist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XML.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML0#
+lSLF07#2@79"Link /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML302533620#302533621#0(0"0(0#0#0"8629539744#858"    cd /Users/mneedham/SandBox/iPad/XML    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -filelist /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XML.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML0#
 
 CProcessInfoPlistFile /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/Info.plist Info.plist
 s302513391.629879
@@ -370,10 +370,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@25"Precompile XML_Prefix.pch302513393#302513394#0(0"0(0#0#47"/Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch8626400320#1690"    cd /Users/mneedham/SandBox/iPad/XML    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-generated-files.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-own-target-headers.hmap -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-all-target-headers.hmap -iquote /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/XML-project-headers.hmap -F/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator -I/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/include -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources/i386 -I/Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/DerivedSources -c /Users/mneedham/SandBox/iPad/XML/XML_Prefix.pch -o /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch.gch0#
 
 CTouch /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app
-s302513395.921447
-e302513395.925781
+s302533621.072349
+e302533621.077633
 r1
 xTouch
 x/Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app
-lSLF07#2@76"Touch /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app302513395#302513395#0(0"0(0#0#0"8627109632#264"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app0#
+lSLF07#2@76"Touch /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app302533621#302533621#0(0"0(0#0#0"8631441312#264"    cd /Users/mneedham/SandBox/iPad/XML    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app0#
 

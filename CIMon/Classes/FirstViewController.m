@@ -25,8 +25,8 @@
 	myLabel.textAlignment = UITextAlignmentCenter;
 	[self.view addSubview:myLabel];
 		
-	NSString* path = [[NSBundle mainBundle] pathForResource:@"cctray" ofType:@"xml"];
-	NSURL *url = [[NSURL alloc] initWithString:@"http://sites.google.com/site/iphonesdktutorials/xml/Books.xml"];
+	NSString* path = [[NSBundle mainBundle] pathForResource:@"cctray" ofType:@"xml"];	
+	NSURL *url = [NSURL fileURLWithPath:(NSString *) path];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
 	
 	XMLParser *theDelegate = [[XMLParser alloc] initXMLParser];
@@ -37,7 +37,7 @@
 	UILabel *myLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(250, 100, 200, 200)];
 	myLabel2.backgroundColor = [UIColor greenColor];
 	
-	myLabel2.text = [theDelegate currentElementValue];
+	myLabel2.text = [theDelegate.projects objectAtIndex:0];
 	myLabel2.textAlignment = UITextAlignmentCenter;
 	[self.view addSubview:myLabel2];
 }

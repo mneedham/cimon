@@ -13,10 +13,11 @@
 @interface XMLParser : NSObject {
 	
 	NSMutableString *currentElementValue;
-		
+	NSMutableArray *projects;		
 }
 
-- (NSString *)getCurrentElementValue;
+- (NSString *)currentElementValue;
+@property(copy, readwrite) NSMutableArray *projects;
 - (XMLParser *) initXMLParser;
 
 @end
