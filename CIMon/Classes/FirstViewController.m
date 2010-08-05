@@ -8,7 +8,7 @@
 
 #import "FirstViewController.h"
 #import "XMLParser.h"
-
+#import "Project.h"
 
 @implementation FirstViewController
 
@@ -18,12 +18,6 @@
     [super viewDidLoad];
 	
 	appDelegate = (CIMonAppDelegate *)[[UIApplication sharedApplication] delegate];
-	
-	UILabel *myLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 200, 200)];
-	myLabel.backgroundColor = [UIColor redColor];
-	myLabel.text = @"Project 1 :: Fast";
-	myLabel.textAlignment = UITextAlignmentCenter;
-	[self.view addSubview:myLabel];
 		
 	NSString* path = [[NSBundle mainBundle] pathForResource:@"cctray" ofType:@"xml"];	
 	NSURL *url = [NSURL fileURLWithPath:(NSString *) path];
@@ -32,14 +26,35 @@
 	XMLParser *theDelegate = [[XMLParser alloc] initXMLParser];
 	[xmlParser setDelegate:theDelegate];
 	[xmlParser parse];
-
+		
+	NSInteger x = 30;
+	NSInteger y = 0;
+	NSInteger column1 = true;
+	for(Project *project in theDelegate.projects) {		
+		if(column1) {
+			x = 30;
+			y = y + 110;
+			column1 = false;
+		} else {
+			x = 290;
+			column1 = true;
+		}
+		
+		UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 250, 100)];
+		
+		
+		if([[project lastBuildStatus] isEqualToString:@"Success"]) {
+			aLabel.backgroundColor = [UIColor greenColor];	
+		} else {
+			aLabel.backgroundColor = [UIColor redColor];		
+		}
+		
+		aLabel.text = [project name];
+		aLabel.textAlignment = UITextAlignmentCenter;
+		
+		[self.view addSubview:aLabel];
 	
-	UILabel *myLabel2 = [[UILabel alloc] initWithFrame:CGRectMake(250, 100, 200, 200)];
-	myLabel2.backgroundColor = [UIColor greenColor];
-	
-	myLabel2.text = [theDelegate.projects objectAtIndex:0];
-	myLabel2.textAlignment = UITextAlignmentCenter;
-	[self.view addSubview:myLabel2];
+	}
 }
 
 

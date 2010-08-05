@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>E1992FA5120A7E3400BED8E1</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>cctray.xml</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>E1992FA6120A7E3400BED8E1</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>cctray.xml</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>E1992FB3120A822A00BED8E1</string>
-						<key>history</key>
-						<array>
-							<string>E1992F9E120A7B7D00BED8E1</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1355, 735}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 97 1355 776 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -312,8 +271,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>13</integer>
+									<integer>7</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -355,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>XMLParser.m</string>
+								<string>FirstViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -363,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>XMLParser.m</string>
+										<string>FirstViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E1992FB2120A822A00BED8E1</string>
+										<string>E19930EB120ABABB00BED8E1</string>
 										<key>history</key>
 										<array>
 											<string>E1992BD51207FDAC00BED8E1</string>
@@ -379,14 +338,15 @@
 											<string>E1992E4212084B6600BED8E1</string>
 											<string>E1992EA4120928D600BED8E1</string>
 											<string>E1992EA6120928D600BED8E1</string>
-											<string>E1992F071209B98B00BED8E1</string>
-											<string>E1992F081209B98B00BED8E1</string>
-											<string>E1992F121209B9D900BED8E1</string>
 											<string>E1992F81120A78BE00BED8E1</string>
 											<string>E1992F82120A78BE00BED8E1</string>
-											<string>E1992F83120A78BE00BED8E1</string>
-											<string>E1992F94120A791400BED8E1</string>
-											<string>E1992FA3120A7E3400BED8E1</string>
+											<string>E1993025120A8A4600BED8E1</string>
+											<string>E1993059120A92C800BED8E1</string>
+											<string>E1993060120A933E00BED8E1</string>
+											<string>E1993061120A933E00BED8E1</string>
+											<string>E1993083120A9C4B00BED8E1</string>
+											<string>E19930E9120ABABB00BED8E1</string>
+											<string>E19930EA120ABABB00BED8E1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -584,7 +544,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E1992FA8120A7E3400BED8E1</string>
+		<string>E19930EC120ABABB00BED8E1</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>E1992F231209BA8B00BED8E1</string>
 		<string>1C0AD2AF069F1E9B00FABCE6</string>
@@ -592,7 +552,6 @@
 		<string>E1992C391208145000BED8E1</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E1992ADB1205DCC000BED8E1</string>
-		<string>E1992FA5120A7E3400BED8E1</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/mneedham/SandBox/iPad/CIMon/CIMon.xcodeproj</string>
 	</array>

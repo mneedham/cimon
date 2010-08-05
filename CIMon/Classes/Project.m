@@ -14,9 +14,11 @@
 @synthesize name;
 @synthesize lastBuildStatus;
 
-- (Project *) initWithName:(NSString *)name lastBuildStatus:(NSString *)lastBuildStatus {
-	self.name = name;
-	self.lastBuildStatus = lastBuildStatus;
+- (id) initWithName:(NSString *)name lastBuildStatus:(NSString *)lastBuildStatus {
+	if (self = [super init]) {
+		self.name = name;
+		self.lastBuildStatus = lastBuildStatus;
+	}
 	return self;
 }
 
