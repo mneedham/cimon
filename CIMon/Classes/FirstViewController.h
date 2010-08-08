@@ -12,6 +12,12 @@
 
 @interface FirstViewController : UIViewController {
 	CIMonAppDelegate *appDelegate;
+	IBOutlet UITextField *textField;
 }
+
+@property (nonatomic retain) IBOutlet UITextField *textField;
+
+- (IBAction) updateText:(id) sender;
+
 
 @end

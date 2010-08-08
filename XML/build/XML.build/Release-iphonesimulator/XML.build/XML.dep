@@ -1,12 +1,12 @@
-ded8837d8f2e5000ae6c9a7f8ea93eff bd21c866441d3675ae7a3980047643ea ffffffffffffffffffffffffffffffff 272 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app
-00000000000000000000000000000000 9e3611d750a34ae35d6eb1b2dd79bfda ffffffffffffffffffffffffffffffff 102 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM
-20628b1f09370f93ba94baca003ecac7 3b7ed0a399581ed4c8d14670d388a827 ffffffffffffffffffffffffffffffff 28460 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
-c1cc3370cc6059fe12e6f971646c8ce9 0b8217011573646c3d563dc2a6a80599 ffffffffffffffffffffffffffffffff 45312 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o
-c1cc3370cc6fe77d12e6f971646c8cff e493f97467a8f8cc1f2e6a65c63570ec ffffffffffffffffffffffffffffffff 48136 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o
 c1cc3370cb882b7e12e6f971646c8aea e7477979cfecab8e292302c03745f705 ffffffffffffffffffffffffffffffff 41308 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/BookDetailViewController.o
+ffffffffffffffffffffffffffffffff 0b8217011573646c3d563dc2a6a80599 ffffffffffffffffffffffffffffffff 45312 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLParser.o
 c1cc3370c9702d3f12e6f971646c8963 6a81f3733c88bcd9789745180d993665 ffffffffffffffffffffffffffffffff 10176 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/Book.o
 c1cc3370cb88604e12e6f971646c8cb4 ff977179afc20ad834565f831ee74bbf ffffffffffffffffffffffffffffffff 47024 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/RootViewController.o
+c1cc3370cc6fe77d12e6f971646c8cff e493f97467a8f8cc1f2e6a65c63570ec ffffffffffffffffffffffffffffffff 48136 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/XMLAppDelegate.o
 c1cc3370805a2ae712e6f971646c8b16 bd229e196e6f7c67fd0ef53646b6b080 ffffffffffffffffffffffffffffffff 6276 /Users/mneedham/SandBox/iPad/XML/build/XML.build/Release-iphonesimulator/XML.build/Objects-normal/i386/main.o
+ffffffffffffffffffffffffffffffff 9e3611d750a34ae35d6eb1b2dd79bfda ffffffffffffffffffffffffffffffff 102 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app.dSYM
+ffffffffffffffffffffffffffffffff bd21c866441d3675ae7a3980047643ea ffffffffffffffffffffffffffffffff 272 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app
+ffffffffffffffffffffffffffffffff 3b7ed0a399581ed4c8d14670d388a827 ffffffffffffffffffffffffffffffff 28460 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/XML
 000000004929fa710000000000001a75 c1cc3370cb8bd6eb12e6f971646c998c ffffffffffffffffffffffffffffffff 13531024 /var/folders/-N/-NDGjPpcEjCGqQt0FfiYVE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/XML_Prefix-duanoxgimguljlcyqjlacemwfmwq/XML_Prefix.pch.gch
 00000000492a51bf0000000000001f13 8f9ab08e643cf8f1be77554c1653dc7a ffffffffffffffffffffffffffffffff 1194 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/BookDetailView.nib
 00000000492a01fd0000000000001d71 7504c2381e20848a39fad9191027e6cb ffffffffffffffffffffffffffffffff 1077 /Users/mneedham/SandBox/iPad/XML/build/Release-iphonesimulator/XML.app/RootViewController.nib
