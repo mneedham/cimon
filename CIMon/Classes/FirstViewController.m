@@ -14,12 +14,13 @@
 
 @synthesize textField;
 
-- (IBAction) updateText:(id) sender {	
-	for (UIView *view in self.view.subviews) {
-		if([view class] == [UILabel class]) {
-			[view removeFromSuperview];
-		}
+- (IBAction) updateText:(id) sender {		
+	NSMutableArray *discardedItems = [NSMutableArray array];
+	for (id item in dynamicallyAddedFields) {
+		[discardedItems addObject:item];
+		[item removeFromSuperview];
 	}
+	[dynamicallyAddedFields removeObjectsInArray:discardedItems];	
 	
 	NSURL *url = [NSURL URLWithString:textField.text];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithContentsOfURL:url];
@@ -41,24 +42,28 @@
 			column1 = true;
 		}
 		
-		UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 250, 100)];
-		
-		
-		if([[project lastBuildStatus] isEqualToString:@"Success"]) {
-			aLabel.backgroundColor = [UIColor greenColor];	
-		} else {
-			aLabel.backgroundColor = [UIColor redColor];		
-		}
-		
-		aLabel.numberOfLines = 2;
-		aLabel.text = [project name];
-		aLabel.textAlignment = UITextAlignmentCenter;
-		
-		[self.view addSubview:aLabel];
-		[aLabel release];
+		UILabel *aLabel	= [self createLabelFrom:project withXCoordinate:x withYCoordinate:y];
+		[dynamicallyAddedFields addObject:aLabel];
+		[self.view addSubview: aLabel];
 		
 	}
 	
+}
+
+-(UILabel*) createLabelFrom:(Project *)project withXCoordinate:(NSInteger)x withYCoordinate:(NSInteger)y  {
+	UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 250, 100)];
+	
+	if([[project lastBuildStatus] isEqualToString:@"Success"]) {
+		aLabel.backgroundColor = [UIColor greenColor];	
+	} else {
+		aLabel.backgroundColor = [UIColor redColor];		
+	}
+	
+	aLabel.numberOfLines = 2;
+	aLabel.text = [project name];
+	aLabel.textAlignment = UITextAlignmentCenter;
+	
+	return [aLabel autorelease];
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -77,6 +82,9 @@
 	NSInteger x = 30;
 	NSInteger y = 0;
 	NSInteger column1 = true;
+	
+	dynamicallyAddedFields = [[NSMutableArray alloc] init];
+	
 	for(Project *project in theDelegate.projects) {		
 		if(column1) {
 			x = 30;
@@ -87,21 +95,10 @@
 			column1 = true;
 		}
 		
-		UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(x, y, 250, 100)];
-		
-		
-		if([[project lastBuildStatus] isEqualToString:@"Success"]) {
-			aLabel.backgroundColor = [UIColor greenColor];	
-		} else {
-			aLabel.backgroundColor = [UIColor redColor];		
-		}
-		
-		aLabel.numberOfLines = 2;
-		aLabel.text = [project name];
-		aLabel.textAlignment = UITextAlignmentCenter;
-		
+		UILabel *aLabel	= [self createLabelFrom:project withXCoordinate:x withYCoordinate:y];
+				
+		[dynamicallyAddedFields addObject:aLabel];
 		[self.view addSubview:aLabel];
-		[aLabel release];
 	
 	}
 }

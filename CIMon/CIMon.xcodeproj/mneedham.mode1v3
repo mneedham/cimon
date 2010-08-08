@@ -271,6 +271,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -324,29 +326,30 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E15F0BEF120E8C52005F0512</string>
+										<string>E15F0CA3120EFF4E005F0512</string>
 										<key>history</key>
 										<array>
 											<string>E1992BD51207FDAC00BED8E1</string>
-											<string>E1992BDA1207FDAC00BED8E1</string>
 											<string>E1992C3C120815A100BED8E1</string>
 											<string>E1992CD81208363200BED8E1</string>
-											<string>E1992DCB120843B600BED8E1</string>
 											<string>E1992DCC120843B600BED8E1</string>
 											<string>E1992EA4120928D600BED8E1</string>
 											<string>E1992EA6120928D600BED8E1</string>
-											<string>E1992F81120A78BE00BED8E1</string>
-											<string>E1992F82120A78BE00BED8E1</string>
 											<string>E1993083120A9C4B00BED8E1</string>
 											<string>E19930E9120ABABB00BED8E1</string>
-											<string>E15F0B94120E81BE005F0512</string>
 											<string>E15F0BCF120E8AA4005F0512</string>
-											<string>E15F0BD9120E8B87005F0512</string>
-											<string>E15F0BDA120E8B87005F0512</string>
-											<string>E15F0BDB120E8B87005F0512</string>
-											<string>E15F0BDC120E8B87005F0512</string>
 											<string>E15F0BE7120E8BFD005F0512</string>
-											<string>E15F0BE9120E8BFD005F0512</string>
+											<string>E15F0BF5120EE4C4005F0512</string>
+											<string>E15F0C1B120EF489005F0512</string>
+											<string>E15F0C1C120EF489005F0512</string>
+											<string>E15F0C1D120EF489005F0512</string>
+											<string>E15F0C1E120EF489005F0512</string>
+											<string>E15F0C1F120EF489005F0512</string>
+											<string>E15F0C20120EF489005F0512</string>
+											<string>E15F0C62120EFB29005F0512</string>
+											<string>E15F0C64120EFB29005F0512</string>
+											<string>E15F0C65120EFB29005F0512</string>
+											<string>E15F0C7B120EFD1C005F0512</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -544,7 +547,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E15F0BF0120E8C52005F0512</string>
+		<string>E15F0CA0120EFF1E005F0512</string>
 		<string>E15F0B46120D9DC5005F0512</string>
 		<string>E15F0B47120D9DC5005F0512</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -574,7 +577,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>FirstViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -591,6 +594,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -643,7 +648,7 @@
 			<key>WindowToolGUID</key>
 			<string>E1992ADB1205DCC000BED8E1</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
